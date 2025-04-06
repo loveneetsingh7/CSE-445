@@ -2,29 +2,34 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
     <xs:element name="Hotels">
         <xs:complexType>
-        <xs:sequence>
-            <xs:element name="Hotel" minOccurs="1" maxOccurs="unbounded">
-            <xs:complexType>
-                <xs:sequence>
-                <xs:element name="Name" type="xs:string"/>
-                <xs:element name="Phone" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
-                <xs:element name="Address">
+            <xs:sequence>
+                <xs:element name="Hotel" minOccurs="1" maxOccurs="unbounded">
                     <xs:complexType>
-                    <xs:sequence>
-                        <xs:element name="Number" type="xs:string"/>
-                        <xs:element name="Street" type="xs:string"/>
-                        <xs:element name="City" type="xs:string"/>
-                        <xs:element name="State" type="xs:string"/>
-                        <xs:element name="Zip" type="xs:string"/>
-                    </xs:sequence>
-                    <xs:attribute name="NearestAirport" type="xs:string" use="optional"/>
+                        <xs:sequence>
+                            <!-- Hotel name is required  once. -->
+                            <xs:element name="Name" type="xs:string"/>
+                            <!-- Phone can appear multiple times for multiple contact numbers. -->
+                            <xs:element name="Phone" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+                            <!-- Address is required exactly once. -->
+                            <xs:element name="Address">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Number" type="xs:string"/>
+                                        <xs:element name="Street" type="xs:string"/>
+                                        <xs:element name="City" type="xs:string"/>
+                                        <xs:element name="State" type="xs:string"/>
+                                        <xs:element name="Zip" type="xs:string"/>
+                                    </xs:sequence>
+                                    <!-- NearestAirport is an optional attribute of Address -->
+                                    <xs:attribute name="NearestAirport" type="xs:string" use="optional"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <!-- Rating is an optional attribute of Hotel -->
+                        <xs:attribute name="Rating" type="xs:decimal" use="optional"/>
                     </xs:complexType>
                 </xs:element>
-                </xs:sequence>
-                <xs:attribute name="Rating" type="xs:decimal" use="required"/>
-            </xs:complexType>
-            </xs:element>
-        </xs:sequence>
+            </xs:sequence>
         </xs:complexType>
     </xs:element>
 </xs:schema>
