@@ -2,7 +2,7 @@
 <!-- Error 1: Root element is "Hotel" instead of "Hotels" -->
 <Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Hotels.xsd">
     <Hotel Rating="4.2">
-        <n>Westin</n>
+        <Name>Westin</Name>
         <Phone>480-968-8885</Phone>
         <Phone>800-937-8461</Phone>
         <Address NearestAirport="Sky Harbor">
@@ -15,7 +15,7 @@
     </Hotel>
     <!-- Error 2: Required Rating attribute is missing -->
     <Hotel>
-        <n>Marriott Tempe</n>
+        <Name>Marriott Tempe</Name>
         <Phone>480-555-1234</Phone>
         <Address>
         <Number>300</Number>
@@ -27,7 +27,7 @@
     </Hotel>
     <!-- Error 3: Phone element is missing -->
     <Hotel Rating="3.9">
-        <n>Holiday Inn Phoenix</n>
+        <Name>Holiday Inn Phoenix</Name>
         <Address NearestAirport="Sky Harbor">
         <Number>400</Number>
         <Street>Main St</Street>
@@ -38,9 +38,9 @@
     </Hotel>
     <!-- Error 4: Address element has no closing tag -->
     <Hotel Rating="4.1">
-        <n>Courtyard by Marriott</n>
+        <Name>Courtyard by Marriott</Name>
         <Phone>602-555-6789</Phone>
-        <Address NearestAirport="Phoenix-Mesa Gateway"
+        <Address NearestAirport="Phoenix-Mesa Gateway">
         <Number>500</Number>
         <Street>University Dr</Street>
         <City>Mesa</City>
@@ -50,8 +50,8 @@
     </Hotel>
     <!-- Error 5: Two names are provided for one hotel -->
     <Hotel Rating="4.4">
-        <n>Embassy Suites</n>
-        <n>Embassy by Hilton</n>
+        <Name>Embassy Suites</Name>
+        <Name>Embassy by Hilton</Name>
         <Phone>623-555-7890</Phone>
         <Address>
         <Number>600</Number>
