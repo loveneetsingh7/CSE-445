@@ -4,7 +4,7 @@
         <Name>Westin</Name>
         <Phone>480-968-8885</Phone>
         <Phone>800-937-8461</Phone>
-        <Address NearestAirport="Sky Harbor">
+        <Address NearstAirport="Sky Harbor">
         <Number>11</Number>
         <Street>E 7th St</Street>
         <City>Tempe</City>
@@ -15,7 +15,7 @@
     <Hotel Rating="4.5">
         <Name>Marriott Marquis San Diego Marina</Name>
         <Phone>619-234-1500</Phone>
-        <Address NearestAirport="San Diego International">
+        <Address NearstAirport="San Diego International">
         <Number>333</Number>
         <Street>W Harbor Dr</Street>
         <City>San Diego</City>
@@ -38,7 +38,7 @@
     <Hotel Rating="4.3">
         <Name>Hilton Chicago</Name>
         <Phone>312-922-4400</Phone>
-        <Address NearestAirport="O'Hare International">
+        <Address NearstAirport="O'Hare International">
         <Number>720</Number>
         <Street>S Michigan Ave</Street>
         <City>Chicago</City>
@@ -50,7 +50,7 @@
         <Name>Four Seasons Resort Maui</Name>
         <Phone>808-874-8000</Phone>
         <Phone>800-321-4667</Phone>
-        <Address NearestAirport="Kahului Airport">
+        <Address NearstAirport="Kahului Airport">
         <Number>3900</Number>
         <Street>Wailea Alanui Dr</Street>
         <City>Wailea</City>
@@ -73,7 +73,7 @@
         <Name>Bellagio Las Vegas</Name>
         <Phone>702-693-7111</Phone>
         <Phone>888-987-6667</Phone>
-        <Address NearestAirport="McCarran International">
+        <Address NearstAirport="McCarran International">
         <Number>3600</Number>
         <Street>S Las Vegas Blvd</Street>
         <City>Las Vegas</City>
@@ -95,7 +95,7 @@
     <Hotel Rating="4.8">
         <Name>The Peninsula Chicago</Name>
         <Phone>312-337-2888</Phone>
-        <Address NearestAirport="Chicago Midway">
+        <Address NearstAirport="Chicago Midway">
         <Number>108</Number>
         <Street>E Superior St</Street>
         <City>Chicago</City>
@@ -107,7 +107,7 @@
         <Name>Loews Miami Beach Hotel</Name>
         <Phone>305-604-1601</Phone>
         <Phone>800-235-6397</Phone>
-        <Address NearestAirport="Miami International">
+        <Address NearstAirport="Miami International">
         <Number>1601</Number>
         <Street>Collins Ave</Street>
         <City>Miami Beach</City>
