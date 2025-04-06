@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Hotels.xsd">
+    <Hotel Rating="4.2">
+        <Name>Westin</Name>
+        <Phone>480-968-8885</Phone>
+        <Phone>800-937-8461</Phone>
+        <Address NearestAirport="Sky Harbor">
+        <Number>11</Number>
+        <Street>E.7th St</Street>
+        <City>Tempe</City>
+        <State>AZ</State>
+        <Zip>85281</Zip>
+        </Address>
+    </Hotel>
+    <Hotel>
+        <Name>Hilton</Name>
+        <Phone>602-555-1234</Phone>
+        <Address>
+        <Number>400</Number>
+        <Street>Main St</Street>
+        <City>Phoenix</City>
+        <State>AZ</State>
+        <Zip>85001</Zip>
+        </Address>
+    </Hotel>
+    <Hotel Rating="4.5">
+        <Name>Marriott</Name>
+        <Address NearestAirport="Mesa Gateway">
+        <Number>200</Number>
+        <Street>Center Blvd</Street>
+        <City>Mesa</City>
+        <State>AZ</State>
+        <Zip>85210</Zip>
+        </Address>
+    </Hotel>
+    <Hotel Rating="3.8">
+        <Name>Sheraton</Name>
+        <Phone>480-555-6789</Phone>
+        <Address NearestAirport="Sky Harbor"
+        <Number>300</Number>
+        <Street>Mill Ave</Street>
+        <City>Tempe</City>
+        <State>AZ</State>
+        <Zip>85282</Zip>
+        </Address>
+    </Hotel>
+    <Hotel Rating="4.0">
+        <Name>Embassy Suites</Name>
+        <Name>Embassy</Name>
+        <Phone>623-555-7890</Phone>
+        <Address>
+        <Number>500</Number>
+        <Street>Grand Ave</Street>
+        <City>Glendale</City>
+        <State>AZ</State>
+        <Zip>85305</Zip>
+        </Address>
+    </Hotel>
+</Hotel>
