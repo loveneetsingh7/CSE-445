@@ -40,7 +40,7 @@
     <Hotel Rating="4.1">
         <Name>Courtyard by Marriott</Name>
         <Phone>602-555-6789</Phone>
-        <Address NearestAirport="Phoenix-Mesa Gateway">
+        <Address NearestAirport="Phoenix-Mesa Gateway"
         <Number>500</Number>
         <Street>University Dr</Street>
         <City>Mesa</City>
